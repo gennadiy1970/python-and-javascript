@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    color: #333;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+p {
+  text-indent: 1rem;
+}
+
+.page-header,
+.page-main {
+    max-width: 960px;
+    margin: auto;
+}
+
+.codes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.language {
+    width: 48%;
+}
+
+code {
+    border-radius: 3px;
+}
